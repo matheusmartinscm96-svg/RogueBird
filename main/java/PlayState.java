@@ -180,6 +180,7 @@ public class PlayState implements GameState {
 
                 defineNextBossScore();
             }
+        }
         //chama míssil ────────────────────────────────────────────────────────
         if(score != 0 && score%10 == 0 && score != lastMissileScore){
             
